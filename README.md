@@ -1,2 +1,2 @@
-# CSIR11-lab-programs
-Lab Manual programs for CSIR 11 
+# CSIR11 Lab Programs
+my lab manual programs for CSIR 11 course in NITKKR
