@@ -1,4 +1,4 @@
-// The program to add, subtract and multiply two numbers, given by the user
+// Program to add, subtract and multiply two numbers, given by the user
 
 // include the io header, so that we can use printf and scanf
 #include<stdio.h>
