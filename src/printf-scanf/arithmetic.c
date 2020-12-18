@@ -20,10 +20,10 @@ int main() {
     
     // print the results
     printf(
-        "The sum is %d. The difference is %d. The product is %d.",
+        "The sum is %d. The difference is %d. The product is %d.\n",
         a + b,
         a - b,
-        a * b,
+        a * b
     );
     
     // this is the exit code of our program

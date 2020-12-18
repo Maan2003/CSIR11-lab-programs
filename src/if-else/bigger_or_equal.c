@@ -9,7 +9,7 @@ int main() {
 
     if (a > b) {
         printf("First is bigger\n");
-    } else if (b > a) {
+    } else if (b == a) {
         printf("Numbers are EQUAL\n");
     } else {
         printf("Second is bigger\n");

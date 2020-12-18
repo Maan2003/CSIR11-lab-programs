@@ -2,7 +2,7 @@
 
 int main() {
     int a, b, c, d;
-    printf("Enter 3 numbers seperated with space: ");
+    printf("Enter 4 numbers seperated with space: ");
     scanf("%d %d %d %d", &a, &b, &c, &d);
     
     int max = a;
@@ -16,7 +16,7 @@ int main() {
     if (d > max) {
         max = d;
     }
-    printf("maximun is %d\n", max);
+    printf("maximum is %d\n", max);
 
     return 0;
 }

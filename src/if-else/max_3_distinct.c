@@ -18,6 +18,6 @@ int main() {
         // see more: https://www.freebsd.org/cgi/man.cgi?query=sysexits
         return 65;
     }
-    printf("%d is maximum", max);
+    printf("%d is maximum\n", max);
     return 0;
 }

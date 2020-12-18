@@ -7,17 +7,17 @@ int main() {
     
     int max;
     if (a > b && a > c) {
-        printf("first is maximum");
+        printf("first is maximum\n");
     } else if (b > a && b > c) {
-        printf("second is maximum");
+        printf("second is maximum\n");
     } else if (c > a && c > b) {
-        printf("third is maximum");
+        printf("third is maximum\n");
     } else if (a == b) {
-        printf("first and second are maximum");
+        printf("first and second are maximum\n");
     } else if (a == c) {
-        printf("first and third are maximum");
+        printf("first and third are maximum\n");
     } else if (b == c) {
-        printf("second and third are maximum");
+        printf("second and third are maximum\n");
     }
     return 0;
 }

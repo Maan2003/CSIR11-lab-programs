@@ -26,7 +26,7 @@ int main() {
 
     if (complex) {      // complex roots
         printf("roots are %lf ± %lfi\n", term1, term2);
-    } else (D == 0.0) { // equal roots
+    } else if (D == 0.0) { // equal roots
         printf("two equals roots: %lf\n", term1);
     } else {            // real roots
         printf("roots are %lf ± %lf\n", term1, term2);
