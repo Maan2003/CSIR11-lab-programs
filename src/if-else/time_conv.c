@@ -23,4 +23,5 @@ int main() {
     }
 
     printf("%u:%u %s\n", hr, min, am_pm);
+    return 0;
 }

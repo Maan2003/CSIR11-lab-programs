@@ -7,4 +7,5 @@ int main() {
     
     int result = 2 * a + 1;
     printf("The result is %d\n", result);
+    return 0;
 }

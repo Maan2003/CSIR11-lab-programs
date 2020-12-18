@@ -14,4 +14,5 @@ int main() {
     } else {
         printf("Second is bigger\n");
     }
+    return 0;
 }

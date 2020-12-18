@@ -14,5 +14,6 @@ int main() {
     } 
     if (b > a) {
         printf("Second number is bigger\n");
-    } 
+    }
+    return 0;
 }
