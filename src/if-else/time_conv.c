@@ -22,6 +22,6 @@ int main() {
         am_pm = "AM";
     }
 
-    printf("%u:%u %s\n", hr, min, am_pm);
+    printf("%02u:%02u %s\n", hr, min, am_pm);
     return 0;
 }
