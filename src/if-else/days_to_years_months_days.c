@@ -24,7 +24,7 @@ int main() {
     };
 
     // for leap year days in Feb. is 29
-    if(years % 4 == 0) {
+    if(years % 4 == 3) {
         days_in_months[1] = 29;
     }
 
