@@ -1,3 +1,5 @@
+// Useless question without a reference date
+
 #include <stdio.h>
 
 int main() {
