@@ -13,13 +13,12 @@ int main() {
         return 65;
     }
     
-    char* am_pm;
+    char* am_pm = (hr < 12) ? "AM" : "PM";
+    
+    // NOTE: using hr %= 12 is not same for hr = 12
     if (hr > 12) {
-        am_pm = "PM";
         // wouldn't underflow because hr > 12
         hr -= 12;
-    } else {
-        am_pm = "AM";
     }
 
     printf("%02u:%02u %s\n", hr, min, am_pm);
